@@ -37,3 +37,4 @@ class banner {
     }
 }
 
+module.exports = banner;
