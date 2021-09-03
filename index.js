@@ -8,7 +8,7 @@ class banner {
         this.token = token;
     }
 
-    async get(userID, { size = 4096 }) {
+    async get(userID, size = 4096) {
         try {
             if (!size)
                 size = 4096
@@ -26,9 +26,9 @@ class banner {
             if (response.status != 200)
                 throw new Error(`${response.status} ${response.statusText}`)
 
-            let banner = response.data.user.banner;
+            let banner = response.data.banner;
             if (banner) {
-                banner = banner + `?size=${size}`;
+                banner = `https://cdn.discordapp.com/banners/${userID}/${banner}?size=${size}`;
             }
             return { sucess: true, user: response.data, banner: banner };
         } catch (error) {
