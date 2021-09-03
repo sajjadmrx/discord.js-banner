@@ -1,0 +1,30 @@
+{
+  "name": "discord.js-banner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjadmrx/discord.js-banner.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord",
+    "banner",
+    "banner",
+    "discord.js-banner"
+  ],
+  "author": "sajjadmrx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajjadmrx/discord.js-banner/issues"
+  },
+  "homepage": "https://github.com/sajjadmrx/discord.js-banner#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
